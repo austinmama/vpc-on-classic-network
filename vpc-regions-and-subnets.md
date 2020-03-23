@@ -38,7 +38,7 @@ This document discusses the relationships among regions, address prefixes, and s
 
 A VPC is deployed in a region, but it may span multiple zones. Each region contains multiple zones, which represent independent fault domains.
 
-## IBM Cloud VPC and Address Prefixes
+## IBM Cloud VPC and address prefixes
 {: #ibm-cloud-vpc-and-address-prefixes}
 
 Address prefixes enable communication between VPC instances in different zones. They provide routing information, which the _implicit router_ needs, for sending data to the zone in which the destination instance is located. Each subnet must be contained by an address prefix. {{site.data.keyword.vpc_short}} does not support the concept of "local" or "unreachable" subnets.
