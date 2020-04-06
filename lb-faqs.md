@@ -58,7 +58,7 @@ Yes. The load balancer automatically adjusts its capacity based on the load. Whe
 
 You must ensure that the proper ACL or security group rules are in place to allow VPC instance creation and allow incoming traffic for configured listener ports and management ports. Traffic between the load balancer and back-end instances also should be allowed.
 
-For detailed information on the ACLs configuration required, refer to [Configuring ACLs for use with load balancers](#configuring-acls-for-use-with-load-balancers).
+For detailed information on the ACLs configuration required, refer to [Configuring ACLs for use with load balancers](/docs/vpc-on-classic-network?topic=vpc-on-classic-network---using-load-balancers-in-ibm-cloud-vpc#configuring-acls-for-use-with-load-balancers).
 
 ## Why am I receiving an error message: `certificate instance not found`?
 {: #why-am-i-receiving-an-error-message}
